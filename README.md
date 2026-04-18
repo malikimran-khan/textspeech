@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 🎙️ VoiceMaster AI - Premium Text-to-Speech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+VoiceMaster AI is a professional, high-quality Text-to-Speech (TTS) application designed with a stunning modern aesthetic. It provides a seamless experience for converting written text into natural-sounding audio with advanced customization options.
 
-## Available Scripts
+![Project Preview](https://via.placeholder.com/800x400/020617/00f2fe?text=VoiceMaster+AI+Redesign+Preview)
 
-In the project directory, you can run:
+## ✨ Key Features
 
-### `npm start`
+-   **Premium Glassmorphism UI**: A state-of-the-art interface featuring backdrop blurs, neon accents, and responsive layouts.
+-   **Advanced Voice Customization**: 
+    -   **Voice Selection**: Choose from all available neural and standard voices installed on your operating system.
+    -   **Pitch Control**: Fine-tune the frequency of the voice from deep bass to high soprano.
+    -   **Speech Rate**: Adjust the reading speed from 0.5x to 2.0x for perfect clarity.
+-   **Dynamic Animations**: Powered by **Framer Motion** for smooth transitions, hover effects, and a pulsing "Speaking" indicator.
+-   **Playback Control**: Dedicated buttons to Speak, Stop, and Clear text with a single click.
+-   **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Purpose
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The goal of this project is to provide a user-friendly, visually impressive interface for the browser's built-in `SpeechSynthesis` API. It transforms a simple technical capability into a polished productivity tool suitable for content creators, accessibility enhancement, or general utility.
 
-### `npm test`
+## 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **React**: Core frontend framework.
+-   **Framer Motion**: High-performance animations.
+-   **Lucide React**: Premium icon set.
+-   **Vanilla CSS**: Custom glassmorphism design system.
+-   **Web Speech API**: Native browser speech synthesis engine.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to get a local copy up and running.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/malikimran-khan/textspeech.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Navigate to the project directory**
+   ```bash
+   cd textspeech
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application will automatically open in your browser at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🎨 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can easily customize the color palette by modifying the CSS variables in `src/index.css`:
 
-### Analyzing the Bundle Size
+```css
+:root {
+  --primary: #00f2fe;    /* Cyan accent */
+  --secondary: #4facfe;  /* Blue gradient */
+  --accent: #f093fb;     /* Neon purple */
+  --bg-darker: #020617;  /* Deep navy background */
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
 
-### Making a Progressive Web App
+Distributed under the MIT License. See `LICENSE` for more information (if applicable).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed with ❤️ by **Antigravity AI**
